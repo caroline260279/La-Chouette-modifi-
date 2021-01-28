@@ -273,8 +273,7 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    margin: auto;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -701,7 +700,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -823,6 +823,23 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.p-bloc-2{
+    font-size: 20px;
+    margin: 0 20px;
+}
+.citation{
+    font-size: 20px;
+}
+blockquote{
+    border: none;
+}
+.p-footer{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.p-bloc-4{
+    font-size: 25px;
 }
 
 @media (max-width: 1024px) {
