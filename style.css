@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -702,6 +701,7 @@ p {
     max-width: 400px;
     display: flex;
     justify-content: space-between;
+    color: #575757;
 }
 
 h2 {
@@ -733,10 +733,6 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -781,12 +777,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -838,6 +834,7 @@ blockquote{
 .p-footer{
     font-size: 15px;
     margin-bottom: 20px;
+    color: #575757;
 }
 .p-bloc-4{
     font-size: 25px;
@@ -848,6 +845,10 @@ h2 .text-center{
 .p-figure{
     margin-bottom: 30px;
 }
+.p-bloc-3{
+    color: #FFFFFF!important;
+}
+
 @media screen and (min-width: 768px) {
     .portfolio-thumb{
         object-fit: cover;
