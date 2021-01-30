@@ -654,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #242424!important;
 }
 
 .container {
@@ -708,7 +708,7 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: #575757;
+    color: #242424;
 }
 
 h2 {
@@ -783,8 +783,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #f1a37f;
-    color: #575757!important;
+    background: #ee8a63;
+    color: #242424!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -845,7 +845,7 @@ blockquote{
 .p-footer{
     font-size: 15px;
     margin-bottom: 20px;
-    color: #575757;
+    color: #242424;
 }
 .p-bloc-4{
     font-size: 25px;
