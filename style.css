@@ -274,6 +274,8 @@ a:hover {
 
 .row-no-gutters {
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -477,6 +479,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    display: block;
 }
 
 .icon-lg {
@@ -702,6 +705,8 @@ p {
 .social {
     max-width: 400px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #575757;
 }
