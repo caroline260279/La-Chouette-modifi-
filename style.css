@@ -827,6 +827,9 @@ h2 .text-center{
 .p-bloc-3{
     color: #FFFFFF!important;
 }
+.tc-white-h1{
+    color: #242424!important;
+}
 
 @media screen and (min-width: 768px) {
     .portfolio-thumb{
