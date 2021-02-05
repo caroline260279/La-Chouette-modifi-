@@ -840,7 +840,7 @@ h2 .text-center {
         max-width: 250px;
     }
     .col-sm-6 {
-        margin: 10px;
+        margin: auto;
     }
     .citation {
         margin: 0 120px;
