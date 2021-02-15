@@ -831,7 +831,14 @@ h2 .text-center {
 .tc-white-h1 {
     color: #242424 !important;
 }
-
+.address {
+    margin: auto;
+    font-size: 20px;
+    padding-top: 150px;
+}
+.fa-chevron-up {
+    color: black;
+}
 @media screen and (min-width: 768px) {
     .portfolio-thumb {
         object-fit: cover;
@@ -842,6 +849,10 @@ h2 .text-center {
     }
     .citation {
         margin: 0 120px;
+    }
+    .address {
+        margin: auto;
+        text-align: center;
     }
 }
 @media (max-width: 1024px) {
@@ -1044,6 +1055,11 @@ h2 .text-center {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .address {
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
     }
 }
 
